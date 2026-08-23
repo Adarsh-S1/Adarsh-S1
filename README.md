@@ -36,13 +36,19 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics â
 ---
 
 <!--
-  Coder GIF â€” place your file at assets/coder.gif in this repo.
-  Path is relative to the repo root, so this works once committed.
+  ASCII art portrait (dark/light mode responsive) + Coder GIF.
+  Uses <picture> with prefers-color-scheme to swap white/black variants.
 -->
 <p align="center">
-  <img src="assets/ascii-art-black.png" alt="Coding" width="450"/>
+  <a href="https://github.com/Adarsh-S1">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-art-white.png">
+      <source media="(prefers-color-scheme: light)" srcset="assets/ascii-art-black.png">
+      <img alt="Adarsh's ASCII Art Portrait" src="assets/ascii-art-black.png" width="420"/>
+    </picture>
+  </a>
   &nbsp; &nbsp; &nbsp;
-  <img src="assets/coder.gif" alt="Coding" width="450"/>
+  <img src="assets/coder.gif" alt="Coding" width="420"/>
 </p>
 
 ---
@@ -73,36 +79,3 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics â
 <p align="center">
   ðŸ“« Reach me at <a href="mailto:adarshs112004@gmail.com">adarshs112004@gmail.com</a>
 </p>
-
-<!--
-  SETUP CHECKLIST (delete this comment once done):
-  1. Coder GIF: add your file at assets/coder.gif in this repo.
-  2. Isometric contribution calendar: add the workflow below as
-     .github/workflows/profile-3d-contrib.yml, then run it once from the
-     Actions tab (or wait for the daily schedule). It will commit SVGs to
-     profile-3d-contrib/ automatically.
-
-     name: GitHub-Profile-3D-Contrib
-     on:
-       schedule:
-         - cron: "0 18 * * *"
-       workflow_dispatch:
-     permissions:
-       contents: write
-     jobs:
-       build:
-         runs-on: ubuntu-latest
-         steps:
-           - uses: actions/checkout@v5
-           - uses: yoshi389111/github-profile-3d-contrib@latest
-             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-               USERNAME: ${{ github.repository_owner }}
-           - name: Commit & Push
-             run: |
-               git config user.name github-actions
-               git config user.email github-actions@github.com
-               git add -A .
-               git diff --quiet && git diff --staged --quiet || git commit -m "Update 3D contribution calendar"
-               git push
--->
