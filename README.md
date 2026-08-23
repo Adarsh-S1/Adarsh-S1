@@ -39,17 +39,22 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics â
   ASCII art portrait (dark/light mode responsive) + Coder GIF.
   Uses <picture> with prefers-color-scheme to swap white/black variants.
 -->
-<p align="center">
-  <a href="https://github.com/Adarsh-S1">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-art-black.png">
-      <source media="(prefers-color-scheme: light)" srcset="assets/ascii-art-white.png">
-      <img alt="Adarsh's ASCII Art Portrait" src="assets/ascii-art-black.png" width="420"/>
-    </picture>
-  </a>
-  &nbsp; &nbsp; &nbsp;
-  <img src="assets/coder.gif" alt="Coding" width="420"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Adarsh-S1">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-art-black.png">
+          <source media="(prefers-color-scheme: light)" srcset="assets/ascii-art-white.png">
+          <img alt="Adarsh's ASCII Art Portrait" src="assets/ascii-art-black.png" width="420"/>
+        </picture>
+      </a>
+    </td>
+    <td align="center">
+      <img src="assets/coder.gif" alt="Coding" width="420"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
