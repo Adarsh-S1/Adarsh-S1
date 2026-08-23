@@ -68,6 +68,7 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics �
 ### Recognition
 
 🏆 First Prize, Software Track — I.D.E.A 2025 Intercollege Ideathon (IEEE SB AJCE × IEEE YP Kerala)
+<br>
 🌏 Indo-Malaysian International Hackathon (DEKATHON 3.0) participant, SDG-focused 3-day residential hackathon
 
 ---
