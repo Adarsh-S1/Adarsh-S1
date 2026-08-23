@@ -42,8 +42,8 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics â
 <p align="center">
   <a href="https://github.com/Adarsh-S1">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-art-white.png">
-      <source media="(prefers-color-scheme: light)" srcset="assets/ascii-art-black.png">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-art-black.png">
+      <source media="(prefers-color-scheme: light)" srcset="assets/ascii-art-white.png">
       <img alt="Adarsh's ASCII Art Portrait" src="assets/ascii-art-black.png" width="420"/>
     </picture>
   </a>
