@@ -40,7 +40,7 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics â
   Path is relative to the repo root, so this works once committed.
 -->
 <p align="center">
-  <img src="assets/ascii-art.png" alt="Coding" width="450"/>
+  <img src="assets/ascii-art-black.png" alt="Coding" width="450"/>
   &nbsp; &nbsp; &nbsp;
   <img src="assets/coder.gif" alt="Coding" width="450"/>
 </p>
