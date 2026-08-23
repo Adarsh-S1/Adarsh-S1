@@ -23,6 +23,10 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics �
 
 ### Tech Stack
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,java,c,flutter,flask,mongodb,firebase,mysql,docker,git,github" alt="Skill icons"/>
+</p>
+
 **Languages & ML** — Python (PyTorch, TensorFlow, LangChain), C, Java
 **Frontend** — Flutter, Flask
 **Backend & Data** — MongoDB, Milvus, Firebase, MySQL
@@ -31,30 +35,15 @@ AI/ML engineer building RAG pipelines, multimodal LLM tools, and edge robotics �
 
 ---
 
-### Featured Projects
-
-<!-- Replace the placeholder links below with the actual repo URLs -->
-
-**[Multimodal Intelligent Customer Support Chatbot](https://github.com/Adarsh-S1)**
-A 5-agent RAG pipeline for multimodal PDF Q&A with self-correcting quality refinement and source citations — Docling/BLIP/SigLIP ingestion, Milvus HNSW + BM25 hybrid search, FastAPI + React 19.
-
-**[Academic RAG Pipeline](https://github.com/Adarsh-S1)**
-A searchable knowledge base over college notes and textbooks using MongoDB Vector Search, with an n8n-driven AI preprocessing layer that replaces brittle PDF parsing.
-
-**[Smart Buddy — Companion Robot](https://github.com/Adarsh-S1)**
-An interactive robot that tracks and follows people, avoids obstacles, and holds voice conversations via the Gemini API. YOLOv8-based tracking hit 88.7% accuracy on a Raspberry Pi 5 — published at IEEE 2025.
-
-**[Interactive AI Santa](https://github.com/Adarsh-S1)**
-A human-sized robot built from scratch (welding, lathe machining) for a live festival, with real-time facial detection, servo-controlled movement, and an automated gift-trigger mechanism.
-
-<details>
-<summary>More projects</summary>
-<br>
-
-**[Hearing Aid — Assistive IoT Device](https://github.com/Adarsh-S1)**
-Bluetooth-based device that streams speech-to-text to an OLED display for people with hearing disabilities, using a leaky-bucket algorithm to manage text flow.
-
-</details>
+<!--
+  Coder GIF — place your file at assets/coder.gif in this repo.
+  Path is relative to the repo root, so this works once committed.
+-->
+<p align="center">
+  <img src="assets/ascii-art.png" alt="Coding" width="450"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="assets/coder.gif" alt="Coding" width="450"/>
+</p>
 
 ---
 
@@ -72,10 +61,48 @@ Bluetooth-based device that streams speech-to-text to an OLED display for people
 
 ---
 
+<!--
+  Isometric 3D contribution calendar.
+  Generated daily by the yoshi389111/github-profile-3d-contrib GitHub Action
+  (see setup note below) and committed to profile-3d-contrib/ in this repo.
+-->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Adarsh-S1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Adarsh's GitHub stats" height="165"/>
+  <img src="profile-3d-contrib/profile-night-green.svg" alt="Adarsh's 3D contribution calendar" width="90%"/>
 </p>
 
 <p align="center">
   📫 Reach me at <a href="mailto:adarshs112004@gmail.com">adarshs112004@gmail.com</a>
 </p>
+
+<!--
+  SETUP CHECKLIST (delete this comment once done):
+  1. Coder GIF: add your file at assets/coder.gif in this repo.
+  2. Isometric contribution calendar: add the workflow below as
+     .github/workflows/profile-3d-contrib.yml, then run it once from the
+     Actions tab (or wait for the daily schedule). It will commit SVGs to
+     profile-3d-contrib/ automatically.
+
+     name: GitHub-Profile-3D-Contrib
+     on:
+       schedule:
+         - cron: "0 18 * * *"
+       workflow_dispatch:
+     permissions:
+       contents: write
+     jobs:
+       build:
+         runs-on: ubuntu-latest
+         steps:
+           - uses: actions/checkout@v5
+           - uses: yoshi389111/github-profile-3d-contrib@latest
+             env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+               USERNAME: ${{ github.repository_owner }}
+           - name: Commit & Push
+             run: |
+               git config user.name github-actions
+               git config user.email github-actions@github.com
+               git add -A .
+               git diff --quiet && git diff --staged --quiet || git commit -m "Update 3D contribution calendar"
+               git push
+-->
